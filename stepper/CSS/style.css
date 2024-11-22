@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.whole-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+}
+.title{
+  font-size: 24px;
+  padding:15px 0;
+} 
+.heading-line {
+  height: 4px; 
+  background-color: #a7a4a4; 
+  border: none; 
+  margin:20px 0; 
+  opacity: 0.3; 
+  box-shadow: 0 2px 5px rgba(163, 162, 162, 0.2); 
+}
+
+
+.stepper {
+  display: flex;
+  align-items: center;
+  margin:10px 20px;
+}
+.details {
+  display: flex;
+
+  justify-content: space-between;
+}
+.step {
+  text-align: center;
+}
+
+.step-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #ddd;
+  color: #000;
+  font-weight: bold;
+}
+
+.line { 
+  width:600px;
+  height: 4px;
+  background: #ddd; 
+} 
+.space{
+  background: #ddd; 
+}
+.message {
+  font-size: 18px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+
+.buttons button {
+  padding: 10px 20px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 5px;
+  background: #ddd;
+  cursor: pointer;
+  font-size: 16px; 
+
+}
+.arrange-payment{
+  margin-right: 30px;
+}
+
